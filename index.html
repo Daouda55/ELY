@@ -3,18 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>ELY</title>
 </head>
 <body>
     <header class="site-header">
-
-        <a href="index.html" class="Logo">ELY</a>
+        <SECtion class="logo1">
+            <a href="index.html" class="logo"><img src="images/LE.png" alt="ELY"></a>
+        </SECtion>
         <nav class="main-nav">
-
+            <a href="index.html">Accueil</a>
+            <a href="about.html">A propos</a>
+            <a href="boutique.html">collection</a>
+            <a href="contact.html">contact</a>
         </nav>
-        <div class="header-action"></div>
+        <div class="header-actions">
+            <!-- Recherche -->
+            <button type="button" aria-label="Recherche">
+                <img src="images/lr.jpg" alt="Recherche" >
+            </button>
+            <!-- Compte -->
+            <a href="compte.html" aria-label="Mon compte">
+                <img src="images/lc.jpg" alt="Mon compte">
+            </a>
+            <!-- Panier -->
+            <a href="panier.html" aria-label="Mon panier">
+               <img src="images/lp.jpg" alt="Mon panier">
+            </a>
+        </div>
 
     </header>
 
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1> L'elegence dans chaque detail </h1>
+                <p>Decouvrir l'univers ELY.</p>
+                <button class="hero-button">
+                     <a href="boutique.html">Decouvrir la collection</a>
+                </button>
+               
+            </div>
+        </section>
+        <section class="collections">
+            <div class="section-heading">
+                <h2>Nos collections</h2>
+                <p>Decouvrez l'univers vestimentaire ELY.</p>
+            </div>
+            <div class="collection-grid">
+                <a href="boutique.html?categorie=homme" class="collection-card">
+                    <div class="collection-image">
+                        <img src="images/vhs.jpg" alt="collection homme ELY" loading="lazy">
+                        <span>HOMME</span>
+                    </div>
+                    <h3>Collections</h3>
+                </a>
+                <a href="boutique.html?categorie=femme" class="collection-card">
+                    <div class="collection-image">
+                        <img src="images/vf2.jpg" alt="collection femme ELY" loading="lazy">
+                        <span>FEMME</span>
+                    </div>
+                    <h3>Collections</h3>
+                </a>
+                <a href="boutique.html?categorie=accessoires" class="collection-card">
+                    <div class="collection-image">
+                        <img src="images/ac.jpg" alt="collection accessoires ELY" loading="lazy">
+                        <span>ACCESSOIRES</span>
+                    </div>
+                    <h3>collections</h3>
+                </a>
+            </div>
+        </section>
+        <section class="brand-story">
+            <div class="brand-story-image">
+                <img src="images/vh6.jpg" alt="L'univers de la marque ELY">
+            </div>
+            <div class="brand-story-content">
+                <span>NOTRE UNIVERS</span>
+                <h2>L'elegence est une identite.</h2>
+                <p>ELY celebre une vision de la mode ou le style, la qualite et chaque detail de leur importance.</p>
+                <a href="about.html">Decouvrir notre histoire</a>
+            </div>
+        </section>
+        <section class="featured-products">
+            <div class="section-heading">
+                <h2>Nos pieces selectionnees</h2>
+                <p>Decouvrez une selection de l'univers ELY.</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vf2.jpg" alt="T-shirt ELY">
+                        <span class="product-overlay">T-shirt Signature</span>
+                    </div>
+                    <div class="product-info">
+                        <span>12000fcf</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                     <div class="product-image">
+                        <img src="images/vf1.jpg" alt="Veste ELY">
+                        <span class="product-overlay">Veste Essentielle</span>
+                    </div>
+                        <div class="product-info">
+                        <span>38000fcf</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vf1.jpg" alt="Veste ELY">
+                        <span class="product-overlay">Chemise Elegence</span>
+                    </div>
+                        <div class="product-info">
+                        <span>25000fcf</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vf1.jpg" alt="Veste ELY">
+                        <span class="product-overlay">Sac Signature</span>
+                    </div>
+                        <div class="product-info">
+                        <span>18000fcf</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vf1.jpg" alt="Veste ELY">
+                        <span class="product-overlay">Pantalon Signature</span>
+                    </div>
+                        <div class="product-info">
+                        <span>17000fcf</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vf1.jpg" alt="Veste ELY">
+                        <span class="product-overlay">Pantalon Signature</span>
+                    </div>
+                        <div class="product-info">
+                        <span>17000fcf</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vf1.jpg" alt="Veste ELY">
+                        <span class="product-overlay">Pantalon Signature</span>
+                    </div>
+                        <div class="product-info">
+                        <span>17000fcf</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/vf1.jpg" alt="Veste ELY">
+                        <span class="product-overlay">Pantalon Signature</span>
+                    </div>
+                        <div class="product-info">
+                        <span>17000fcf</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h2>ELY</h2>
+                <p>L'elegence dans chaque detail.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Navigation</h3>
+                <a href="index.html">Accueil</a>
+                <a href="about.html">A propos</a>
+                <a href="boutique.html">Boutique</a>
+                <a href="contact.html">contact</a>
+            </div>
+            <div class="footer-social">
+                <h3><Suivez-nous></Suivez-nous></h3>
+                <a href="#">Instagram</a>
+                <a href="#">Twiter</a>
+                <a href="#">Snap</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 ELY. Tous droits réservés.</p>
+        </div>
+    </footer>
 </body>
 </html>

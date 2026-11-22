@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Veste Essentielle | ELY</title>
+</head>
+
+<body>
+
+   
+<main class="product-page">
+
+    <nav class="product-breadcrumb" aria-label="Fil d'Ariane">
+
+        <a href="index.html" class="product-home-logo" aria-label="Retour a l'accueil ELY">
+            <img src="images/LE.png" alt="ELY">
+        </a>
+
+        <span>/</span>
+
+        <a href="boutique.html">Collection</a>
+
+        <span>/</span>
+
+        <span>Veste Essentielle</span>
+
+    </nav>
+
+    <section class="product-detail">
+
+        <!-- GALERIE PHOTO -->
+
+        <div class="product-gallery">
+
+            <div class="main-product-image">
+
+                <img
+                    src="images/v2.jpg"
+                    alt="Veste Essentielle ELY"
+                    id="main-image"
+                >
+
+                <button
+                    type="button"
+                    class="gallery-arrow gallery-prev"
+                    id="gallery-prev"
+                    aria-label="Image précédente"
+                >
+                    &#10094;
+                </button>
+
+                <button
+                    type="button"
+                    class="gallery-arrow gallery-next"
+                    id="gallery-next"
+                    aria-label="Image suivante"
+                >
+                    &#10095;
+                </button>
+
+                <span
+                    class="gallery-counter"
+                    id="gallery-counter"
+                >
+                    01 / 10
+                </span>
+
+            </div>
+
+            <div class="gallery-caption">
+
+                <span>ELY — ÉDITION 001</span>
+
+                <span>UNE VISION DE L'ÉLÉGANCE</span>
+
+            </div>
+
+        </div>
+
+        <!-- INFORMATIONS -->
+
+        <div class="product-details">
+
+            <span class="product-category">
+               <strong>ELY / LES ESSENTIELS</strong> 
+            </span>
+
+            <h1><i><strong>Veste Essentielle</strong></i></h1>
+
+            <p class="product-price">25 000 FCFA</p>
+
+            <p class="product-description">
+               <i><strong> Une pièce contemporaine pensée pour ceux
+                qui recherchent l'élégance dans chaque détail.
+                Une silhouette affirmée, un style intemporel.
+                </strong></i>
+            </p>
+
+            <div class="product-options">
+
+                <!-- COULEURS -->
+
+                <div class="color-selection">
+
+                    <h3>
+                        COULEUR —
+                        <span id="selected-color"><strong></strong></span>
+                    </h3>
+
+                    <div class="color-options">
+
+                        <button
+                            type="button"
+                            class="color-btn Noir"
+                            data-color="Noir"
+                            aria-label="Noir"
+                        >
+                        </button>
+
+                        <button
+                            type="button"
+                            class="color-btn white"
+                            data-color="Blanc"
+                            aria-label="Blanc"
+                        >
+                        </button>
+
+                        <button
+                            type="button"
+                            class="color-btn Beige"
+                            data-color="Beige"
+                            aria-label="Beige"
+                        >
+                        </button>
+
+                         <button
+                            type="button"
+                            class="color-btn Rose"
+                            data-color="Rose"
+                            aria-label="Rose"
+                        >
+                        </button>
+
+                         <button
+                            type="button"
+                            class="color-btn Bleu"
+                            data-color="Bleu"
+                            aria-label="Bleue"
+                        >
+                        </button>
+
+                        <button
+                            type="button"
+                            class="color-btn Rouge"
+                            data-color="Rouge"
+                            aria-label="Rouge"
+                        >
+                        </button>
+
+                        <button
+                            type="button"
+                            class="color-btn Vert"
+                            data-color="Vert"
+                            aria-label="Vert"
+                        >
+                        </button>
+
+                        <button
+                            type="button"
+                            class="color-btn Gris"
+                            data-color="Gris"
+                            aria-label="Gris"
+                        >
+                        </button>
+                    </div>
+
+                </div>
+
+                <!-- TAILLES -->
+
+                <div class="size-selection">
+
+                    <div class="size-heading">
+
+                        <h3>CHOISIR UNE TAILLE</h3>
+
+                        <strong><a href="#">Guide des tailles</a></strong>
+
+                    </div>
+
+                    <div class="size-options">
+
+                        <button type="button" class="size-btn"><strong>S</strong></button>
+
+                        <button type="button" class="size-btn"> <strong>M</strong></button>
+
+                        <button type="button" class="size-btn"><strong>L</strong></button>
+
+                        <button type="button" class="size-btn"><strong>XL</strong></button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Bloc achat ELY -->
+            <div class="purchase-actions">
+
+                <div class="quantity-selection">
+                    <div class="quantity-control">
+
+                        <button type="button" id="increase" aria-label="Augmenter la quantite">+</button>
+
+                        <span id="quantity"><strong>1</strong></span>
+
+                        <button type="button" id="decrease" aria-label="Diminue la quantite">-</button>
+
+                    </div>
+                </div>
+
+                <button type="button" class="add-to-cart">
+
+    <svg xmlns="http://www.w3.org/2000/svg"
+
+         width="20"
+
+         height="20"
+
+         viewBox="0 0 24 24"
+
+         fill="none"
+
+         stroke="currentColor"
+
+         stroke-width="1.8"
+
+         stroke-linecap="round"
+
+         stroke-linejoin="round"
+
+         aria-hidden="true">
+
+        <path d="M5 8h14l1 13H4L5 8Z"/>
+
+        <path d="M9 9V6a3 3 0 0 1 6 0v3"/>
+
+    </svg>
+
+    <span>AJOUTER AU PANIER</span>
+
+</button>
+
+            </div>
+
+            <p class="product-note">
+                <strong>Une création ELY, pensée avec attention.
+            </p></strong>
+
+            <div class="product-benefits">
+
+                <div>
+
+                    <span>01</span>
+
+                    <i><strong><p>Une esthétique intemporelle</p></strong></i>
+
+                </div>
+
+                <div>
+
+                    <span>02</span>
+
+                    <i><strong><p>Une attention portée aux détails</p></strong></i>
+
+                </div>
+
+                <div>
+
+                    <span>03</span>
+
+                    <i><strong><p>Un vestiaire pensé pour durer</p></strong></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+    <div class="cart-overlay" id="cart-overlay">
+
+        <aside class="cart-drawer"
+               id="cart-drawer"
+               aria-label="Votre panier">
+
+            <div class="cart-header">
+          
+                <img src="images/LE.png" alt="ELY" class="cart-logo">
+               
+                <h2>
+                   <strong>VOTRE PANIER</strong> 
+                    <span id="cart-count"><strong>(0)</strong></span>
+                </h2>
+
+                <button type="button"
+                        class="cart-close"
+                        id="cart-close"
+                        aria-label="Fermer le panier">
+                    &times;
+                </button>
+
+            </div>
+
+            <div class="cart-body" id="cart-body">
+
+                <p class="cart-empty">
+                    Votre panier est vide.
+                </p>
+
+            </div>
+
+            <div class="cart-footer">
+
+                <div class="cart-subtotal">
+
+                    <span>Sous-total</span>
+
+                    <strong id="cart-total">10.000FCFA</strong>
+
+                </div>
+
+                <p>
+                    Les frais de livraison seront calculés à la commande.
+                </p>
+
+                <a href="panier.html" class="cart-checkout">
+                    VOIR MON PANIER
+                </a>
+
+                <button type="button"
+                        class="cart-continue"
+                        id="cart-continue">
+                    CONTINUER MES ACHATS
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
